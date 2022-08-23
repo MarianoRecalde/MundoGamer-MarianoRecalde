@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
 
 * {
     margin: 0%;
     padding: 0px;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 
 header {
     background-color: black;
     padding-left: 3px;
 }
+
 header nav {
     margin: 10px;
 
@@ -22,13 +23,14 @@ header nav {
     right: 0;
 }
 
-header nav li{
+header nav li {
     font-family: 'Oswald', sans-serif;
     color-scheme: white;
     display: inline-block;
-    margin-left: 10px;  
+    margin-left: 10px;
 
 }
+
 header img {
     margin-left: 3px;
     margin-top: 3px;
@@ -39,45 +41,43 @@ header img {
 
 }
 
-.imagen{
+.imagen {
     display: flex;
     align-items: center;
 }
 
-.imagen img{
+.imagen img {
     height: 40px;
     margin-right: 0px;
 }
 
-.cuerpo{
+.cuerpo {
     font-family: 'Oswald', sans-serif;
     background-color: rgb(78, 6, 6);
 }
 
-.nombre-empresa{
+.nombre-empresa {
     font-family: 'Oswald', sans-serif;
     color: white
-    
- 
 }
 
-header nav li a{
+header nav li a {
     color: white;
     text-decoration: none;
-    
+
 }
 
-.imagen h2{
+.imagen h2 {
     margin-left: 20px;
 }
 
 main {
     text-align: center;
-   /* position: relative; */
+    /* position: relative; */
 }
 
 .descuento {
-   color: white;
+    color: white;
     background-color: black;
 }
 
@@ -88,32 +88,32 @@ main {
 
 /* ....cuerpo */
 
-.carta{
+.carta {
     width: 300px;
-background-color: rgb(170, 168, 168);
-margin-top: 40px;
-padding: 2px;
-margin-left: 60%;
-border-radius: 5px;
-display: inline-block;
+    background-color: rgb(170, 168, 168);
+    margin-top: 40px;
+    padding: 2px;
+    margin-left: 60%;
+    border-radius: 5px;
+    display: inline-block;
 }
 
-.carta_imagen{
+.carta_imagen {
     width: 295px;
     right: 600px;
-margin-top: 10px;
-margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
-.carta_doble{
+.carta_doble {
     font-size: 25px;
     /* margin-bottom: 0px;
     margin-top: 0px; */
 
 }
 
-.carta_boton{
+.carta_boton {
     font-size: 20px;
     right: 300px;
     /* margin-bottom: 100px; */
@@ -124,46 +124,82 @@ margin-bottom: 10px;
     border-radius: 50px;
     color: #f1e8e8;
     background-color: rgb(129, 138, 49);
-    
+
 }
-                                                   /* MAIN */
-.mundo_gamer{
+
+/* MAIN */
+.mundo_gamer {
     font-family: 'Oswald', sans-serif;
     color: white
 }
 
-.fifa22{
- width: 600px;
-    position:absolute;
+.fifa22 {
+    width: 600px;
+    position: absolute;
     left: 100px;
     border-radius: 5px;
-    
+
 }
 
-.friday{
+.friday {
     width: 600px;
-    position:absolute;
+    position: absolute;
     left: 100px;
     top: 1040px;
     border-radius: 5px;
     margin-top: 3px;
 }
-.nuestros_beneficios{
+
+.nuestros_beneficios {
     text-align: center;
     color: white;
     background-color: black;
 }
 
-.beneficios {
-    text-align: center;
-   
+.caja {
+    border: solid 1px;
+    width: 100px;
+    height: 60px;
+    background: rgb(161, 20, 20);
+    background: linear-gradient(90deg, rgba(161, 20, 20, 1) 22%, rgba(97, 29, 90, 1) 65%);
+    display: grid;
+    place-items: center;
+    transition: all 1.5s;
+    transition-timing-function: ease-out;
+}
+
+.caja:hover {
+    width: 100%;
+    background-color: rgb(46, 134, 168);
+}
+
+/* /transicion/ */
+
+.caja {
+    animation-name: caja;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
 
 }
-                                                /* FOOTER */
+
+@keyframes caja {
+    100% {
+        width: 100%;
+    }
+}
+
+/* FOOTER */
 footer {
     text-align: center;
     color: white;
     background-color: black;
     text-decoration: none;
 }
- 
+
+/* FOOTER */
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
