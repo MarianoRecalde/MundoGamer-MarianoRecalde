@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+
+header {
+    background-color: black;
+    padding-left: 3px;
+}
+header nav {
+    margin: 10px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header nav li{
+    font-family: 'Oswald', sans-serif;
+    color-scheme: white;
+    display: inline-block;
+    margin-left: 10px;  
+
+}
+header img {
+    margin-left: 3px;
+    margin-top: 3px;
+    align-items: center;
+    width: 30px;
+    height: 40px;
+    margin-right: 50px;
+
+}
+
+.imagen{
+    display: flex;
+    align-items: center;
+}
+
+.imagen img{
+    height: 40px;
+    margin-right: 0px;
+}
+
+.cuerpo{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(78, 6, 6);
+}
+
+.nombre-empresa{
+    font-family: 'Oswald', sans-serif;
+    color: white
+    
+ 
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.imagen h2{
+    margin-left: 20px;
+}
+
+main {
+    text-align: center;
+   /* position: relative; */
+}
+
+.descuento {
+   color: white;
+    background-color: black;
+}
+
+.parrafo {
+    color: white;
+    background-color: black;
+}
+
+/* ....cuerpo */
+
+.carta{
+    width: 300px;
+background-color: rgb(170, 168, 168);
+margin-top: 40px;
+padding: 2px;
+margin-left: 60%;
+border-radius: 5px;
+display: inline-block;
+}
+
+.carta_imagen{
+    width: 295px;
+    right: 600px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+
+.carta_doble{
+    font-size: 25px;
+    /* margin-bottom: 0px;
+    margin-top: 0px; */
+
+}
+
+.carta_boton{
+    font-size: 20px;
+    right: 300px;
+    /* margin-bottom: 100px; */
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #f1e8e8;
+    background-color: rgb(129, 138, 49);
+    
+}
+                                                   /* MAIN */
+.mundo_gamer{
+    font-family: 'Oswald', sans-serif;
+    color: white
+}
+
+.fifa22{
+ width: 600px;
+    position:absolute;
+    left: 100px;
+    border-radius: 5px;
+    
+}
+
+.friday{
+    width: 600px;
+    position:absolute;
+    left: 100px;
+    top: 1040px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.nuestros_beneficios{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.beneficios {
+    text-align: center;
+   
+
+}
+                                                /* FOOTER */
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+ 
